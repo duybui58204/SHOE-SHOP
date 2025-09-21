@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Giày Dép - SownNPXSport</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; }
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .product {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+      transition: 0.3s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 { margin: 10px 0 5px; }
+    .product p { margin: 5px 0; }
+    .btn {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover { background: #0056b3; }
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shop Giày Dép</h1>
+    <p>Phong cách - Thời trang - Đẳng cấp</p>
+  </header>
+
+  <nav>
+    <a href="#">Trang chủ</a>
+    <a href="#">Sản phẩm</a>
+    <a href="#">Liên hệ</a>
+  </nav>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Giày 1">
+      <h3>Giày Thể Thao 1</h3>
+      <p>Giá: 800.000đ</p>
+      <a href="#" class="btn">Mua ngay</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Giày 2">
+      <h3>Giày Sneaker 2</h3>
+      <p>Giá: 950.000đ</p>
+      <a href="#" class="btn">Mua ngay</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Giày 3">
+      <h3>Dép Thời Trang 3</h3>
+      <p>Giá: 350.000đ</p>
+      <a href="#" class="btn">Mua ngay</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Shop Giày Dép - All rights reserved.</p>
+  </footer>
+</body>
+</html>
